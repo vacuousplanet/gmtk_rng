@@ -47,5 +47,13 @@ offset_bottom = 123.0
 text = "0"
 text_direction = 2
 
+[node name="ItemName_label" parent="." instance=ExtResource("4_gkw1d")]
+offset_left = -88.0
+offset_top = -188.0
+offset_right = 87.0
+offset_bottom = -129.0
+text = ""
+text_direction = 1
+
 [connection signal="value_changed" from="ATK_slider" to="." method="_on_atk_slider_value_changed"]
 [connection signal="value_changed" from="DEF_slider" to="." method="_on_def_slider_value_changed"]

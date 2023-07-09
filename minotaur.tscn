@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc0qdcxd3ttm0"]
+
+[ext_resource type="PackedScene" uid="uid://8bsurpnnhqcj" path="res://enemy_card.tscn" id="1_244uh"]
+[ext_resource type="Texture2D" uid="uid://bafe3nktwoqij" path="res://Sprites/Enemies/Minotaur.png" id="2_12nlo"]
+
+[node name="Minotaur" instance=ExtResource("1_244uh")]
+rarity = 1
+PTS = 200
+HP = 200
+
+[node name="Profile" parent="." index="1"]
+texture_filter = 1
+position = Vector2(212, 161)
+scale = Vector2(4, 4)
+texture = ExtResource("2_12nlo")
+
+[node name="ATK_slider" parent="." index="2"]
+max_value = 200.0
+value = 200.0
+
+[node name="ATK_label" parent="." index="4"]
+text = "200"
