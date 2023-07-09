@@ -3,6 +3,7 @@ extends Node2D
 @export_enum("EPIC:0", "LEGENDARY:1", "RARE:2") var rarity: int
 
 @export var PTS: int = 100
+@export var HP: int = 100
 
 var ATK: int = 100:
 	get:
@@ -29,18 +30,16 @@ var DEF: int = 0:
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$CardBase.frame = rarity;
-	$ATK_slider.max_value = PTS;
-	$DEF_slider.max_value = PTS;
-	$ItemName_label.text = name
+	$HP_label.text = "HP: " + str(HP)
+	$ATK_slider.max_value = PTS
+	$DEF_slider.max_value = PTS
+	$EnemyName_label.text = name
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
 	pass
-
-
 
 func _on_atk_slider_value_changed(value):
 	ATK = value

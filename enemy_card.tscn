@@ -1,0 +1,66 @@
+[gd_scene load_steps=5 format=3 uid="uid://8bsurpnnhqcj"]
+
+[ext_resource type="Script" path="res://enemy_card.gd" id="1_dx120"]
+[ext_resource type="Texture2D" uid="uid://bpyocd8x1ahq2" path="res://Sprites/enemy_card.png" id="2_58w8q"]
+[ext_resource type="PackedScene" uid="uid://dlaro43qrh1br" path="res://h_slider_px.tscn" id="3_5tr2j"]
+[ext_resource type="PackedScene" uid="uid://d240oq7sng0by" path="res://cool_font_text.tscn" id="4_p6q52"]
+
+[node name="EnemyCard" type="Node2D"]
+script = ExtResource("1_dx120")
+
+[node name="CardBase" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(210, 237)
+scale = Vector2(4, 4)
+texture = ExtResource("2_58w8q")
+
+[node name="Profile" type="Sprite2D" parent="."]
+
+[node name="ATK_slider" parent="." instance=ExtResource("3_5tr2j")]
+offset_left = 187.0
+offset_top = 284.0
+offset_right = 315.0
+offset_bottom = 300.0
+
+[node name="DEF_slider" parent="." instance=ExtResource("3_5tr2j")]
+offset_left = 186.0
+offset_top = 317.0
+offset_right = 318.0
+offset_bottom = 333.0
+
+[node name="ATK_label" parent="." instance=ExtResource("4_p6q52")]
+offset_left = 142.0
+offset_top = 271.0
+offset_right = 182.0
+offset_bottom = 309.0
+text = "100"
+text_direction = 2
+
+[node name="DEF_label" parent="." instance=ExtResource("4_p6q52")]
+offset_left = 141.0
+offset_top = 309.0
+offset_right = 182.0
+offset_bottom = 347.0
+text = "0"
+text_direction = 2
+
+[node name="EnemyName_label" parent="." instance=ExtResource("4_p6q52")]
+offset_left = 90.0
+offset_top = 55.0
+offset_right = 265.0
+offset_bottom = 114.0
+theme_override_colors/default_color = Color(0.0666667, 0.0666667, 0.0666667, 1)
+text = ""
+text_direction = 1
+
+[node name="HP_label" parent="." instance=ExtResource("4_p6q52")]
+offset_left = 202.0
+offset_top = 53.0
+offset_right = 330.0
+offset_bottom = 91.0
+theme_override_colors/default_color = Color(0.0664063, 0.0664063, 0.0664063, 1)
+text = "HP: 10"
+text_direction = 2
+
+[connection signal="value_changed" from="ATK_slider" to="." method="_on_atk_slider_value_changed"]
+[connection signal="value_changed" from="DEF_slider" to="." method="_on_def_slider_value_changed"]
