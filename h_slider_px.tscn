@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dlaro43qrh1br"]
+
+[ext_resource type="Texture2D" uid="uid://cw8xdyt4sjssg" path="res://Sprites/slider_grabber.png" id="1_1g8hv"]
+[ext_resource type="Texture2D" uid="uid://e38k4qa82duv" path="res://Sprites/slider_grabber_highlight.png" id="2_35gaf"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_lcp88"]
+color = Color(0.199219, 0.199219, 0.199219, 1)
+thickness = 4
+
+[node name="HSlider_px" type="HSlider"]
+texture_filter = 1
+offset_right = 165.0
+offset_bottom = 16.0
+theme_override_icons/grabber = ExtResource("1_1g8hv")
+theme_override_icons/grabber_highlight = ExtResource("2_35gaf")
+theme_override_styles/slider = SubResource("StyleBoxLine_lcp88")

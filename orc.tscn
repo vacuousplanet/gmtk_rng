@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://duq1yr1qvr7c5"]
+
+[ext_resource type="PackedScene" uid="uid://8bsurpnnhqcj" path="res://enemy_card.tscn" id="1_ij055"]
+[ext_resource type="Texture2D" uid="uid://ckamw7ilvp65g" path="res://Sprites/Enemies/Orc.png" id="2_h743j"]
+
+[node name="Orc" instance=ExtResource("1_ij055")]
+PTS = 80
+HP = 60
+
+[node name="Profile" parent="." index="1"]
+texture_filter = 1
+position = Vector2(214, 163)
+scale = Vector2(4, 4)
+texture = ExtResource("2_h743j")
+
+[node name="ATK_slider" parent="." index="2"]
+max_value = 80.0
+value = 80.0
+
+[node name="ATK_label" parent="." index="4"]
+text = "80"
