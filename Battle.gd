@@ -2,8 +2,10 @@ extends Control
 
 const hero_scene = preload("res://hero.tscn")
 const fork_scene = preload("res://fork.tscn")
+var hero = hero_scene.instance()
+var fork = fork_scene.instance()
 
-var item_deck = {"fork": fork_scene}
+var item_deck = {"fork": fork}
 
 var start_battle = false
 var turn_in_process
@@ -12,12 +14,10 @@ var fighter = []
 var current_fighter = 0
 
 
-var hero = hero_scene.instance()
-var fork = fork_scene.instance()
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
 	start_battle = true
 	$AnimationPlayer.connect("animation_finished", on_animation_complete)
 	init_battle(draw_item(), draw_item())

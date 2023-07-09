@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcwf5a2yt41e6"
-path="res://.godot/imported/CobaltMinotaur.png-5a80b6014948f345204868c4a0922b3d.ctex"
+path="res://.godot/imported/CobaltMinotaur.png-a58fc5b63e6adcce91f4dd59602ddc3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Enemies/CobaltMinotaur.png"
-dest_files=["res://.godot/imported/CobaltMinotaur.png-5a80b6014948f345204868c4a0922b3d.ctex"]
+source_file="res://sprites/Enemies/CobaltMinotaur.png"
+dest_files=["res://.godot/imported/CobaltMinotaur.png-a58fc5b63e6adcce91f4dd59602ddc3d.ctex"]
 
 [params]
 

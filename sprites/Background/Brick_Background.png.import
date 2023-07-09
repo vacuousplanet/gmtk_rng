@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh72o4ky1te2s"
-path="res://.godot/imported/CorruptSlime.png-c9741ce8dd1b7c4751e0a51c481315be.ctex"
+uid="uid://jn2k6x1xqs7e"
+path="res://.godot/imported/Brick_Background.png-99c2229e1239cbf83109b9c7fb25653c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Enemies/CorruptSlime.png"
-dest_files=["res://.godot/imported/CorruptSlime.png-c9741ce8dd1b7c4751e0a51c481315be.ctex"]
+source_file="res://sprites/Background/Brick_Background.png"
+dest_files=["res://.godot/imported/Brick_Background.png-99c2229e1239cbf83109b9c7fb25653c.ctex"]
 
 [params]
 

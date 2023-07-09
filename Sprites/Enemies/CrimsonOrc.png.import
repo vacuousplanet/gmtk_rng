@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oqgjuvwrj40r"
-path="res://.godot/imported/CrimsonOrc.png-6720e8aafbee17ce0c4661ff66bd80a6.ctex"
+path="res://.godot/imported/CrimsonOrc.png-e5168f017937fc9cfbbb7a8ab1a7c168.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Enemies/CrimsonOrc.png"
-dest_files=["res://.godot/imported/CrimsonOrc.png-6720e8aafbee17ce0c4661ff66bd80a6.ctex"]
+source_file="res://sprites/Enemies/CrimsonOrc.png"
+dest_files=["res://.godot/imported/CrimsonOrc.png-e5168f017937fc9cfbbb7a8ab1a7c168.ctex"]
 
 [params]
 
