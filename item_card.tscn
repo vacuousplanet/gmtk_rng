@@ -1,12 +1,49 @@
-[gd_scene load_steps=3 format=3 uid="uid://bhp7o5grxmv36"]
+[gd_scene load_steps=5 format=3 uid="uid://bhp7o5grxmv36"]
 
 [ext_resource type="Script" path="res://item_card.gd" id="1_3hmh7"]
 [ext_resource type="Texture2D" uid="uid://yonfoim7pl6y" path="res://sprites/item_cards.png" id="2_l5s80"]
+[ext_resource type="PackedScene" uid="uid://dlaro43qrh1br" path="res://h_slider_px.tscn" id="3_axeqi"]
+[ext_resource type="PackedScene" uid="uid://d240oq7sng0by" path="res://cool_font_text.tscn" id="4_gkw1d"]
 
 [node name="ItemCard" type="Node2D"]
+position = Vector2(230, 258)
 script = ExtResource("1_3hmh7")
+metadata/_edit_group_ = true
 
 [node name="CardBase" type="Sprite2D" parent="."]
 texture_filter = 1
+scale = Vector2(4, 4)
 texture = ExtResource("2_l5s80")
 hframes = 3
+
+[node name="ATK_slider" parent="." instance=ExtResource("3_axeqi")]
+offset_left = -19.0
+offset_top = 60.0
+offset_right = 107.0
+offset_bottom = 76.0
+value = 100.0
+
+[node name="DEF_slider" parent="." instance=ExtResource("3_axeqi")]
+offset_left = -15.0
+offset_top = 98.0
+offset_right = 107.0
+offset_bottom = 114.0
+
+[node name="ATK_label" parent="." instance=ExtResource("4_gkw1d")]
+offset_left = -60.0
+offset_top = 47.0
+offset_right = -20.0
+offset_bottom = 85.0
+text = "100"
+text_direction = 2
+
+[node name="DEF_label" parent="." instance=ExtResource("4_gkw1d")]
+offset_left = -61.0
+offset_top = 85.0
+offset_right = -20.0
+offset_bottom = 123.0
+text = "0"
+text_direction = 2
+
+[connection signal="value_changed" from="ATK_slider" to="." method="_on_atk_slider_value_changed"]
+[connection signal="value_changed" from="DEF_slider" to="." method="_on_def_slider_value_changed"]
