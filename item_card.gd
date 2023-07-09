@@ -32,6 +32,7 @@ func _ready():
 	$CardBase.frame = rarity;
 	$ATK_slider.max_value = PTS;
 	$DEF_slider.max_value = PTS;
+	$ItemName_label.text = name
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

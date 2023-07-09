@@ -56,11 +56,13 @@ theme_override_constants/separation = 75
 [node name="VOLUME" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
+
 text = "Volume"
 
 [node name="BACK" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
+
 text = "Back"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/BACK" to="." method="_on_back_pressed"]
