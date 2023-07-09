@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdc7wdfo3c7vk"]
+
+[ext_resource type="PackedScene" uid="uid://bhp7o5grxmv36" path="res://item_card.tscn" id="1_mbl1t"]
+[ext_resource type="Texture2D" uid="uid://bytthfaoyv5ox" path="res://Sprites/Items/Sword.png" id="2_nwtdn"]
+
+[node name="sword" instance=ExtResource("1_mbl1t")]
+rarity = 2
+PTS = 40
+
+[node name="Profile" parent="." index="1"]
+texture_filter = 1
+position = Vector2(8, -76)
+scale = Vector2(4, 4)
+texture = ExtResource("2_nwtdn")
+
+[node name="ATK_slider" parent="." index="2"]
+max_value = 40.0
+value = 40.0
+
+[node name="ATK_label" parent="." index="4"]
+text = "40"

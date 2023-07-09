@@ -16,6 +16,8 @@ scale = Vector2(4, 4)
 texture = ExtResource("2_l5s80")
 hframes = 3
 
+[node name="Profile" type="Sprite2D" parent="."]
+
 [node name="ATK_slider" parent="." instance=ExtResource("3_axeqi")]
 offset_left = -19.0
 offset_top = 60.0
