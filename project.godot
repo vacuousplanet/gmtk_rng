@@ -14,3 +14,7 @@ config/name="GMTK_rng"
 run/main_scene="res://Scenes/main_menu.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+BgMusic="*res://Scenes/bg_music.tscn"

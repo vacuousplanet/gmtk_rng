@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxmxnmaqxiaw4"]
+
+[ext_resource type="Texture2D" uid="uid://u478d40ty5hx" path="res://sprites/MenuTextures.png" id="1_o78v2"]
+[ext_resource type="FontFile" uid="uid://crlhcwhtdqlk0" path="res://fonts/Kanit/Kanit-BlackItalic.ttf" id="2_qwrbf"]
+[ext_resource type="FontFile" uid="uid://bq1f5h6yol3td" path="res://fonts/Kanit/Kanit-Black.ttf" id="3_5te7f"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 768.0
+offset_bottom = 428.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuTextures" type="Sprite2D" parent="."]
+position = Vector2(960, 536)
+texture = ExtResource("1_o78v2")
+
+[node name="MarginContainer" type="MarginContainer" parent="MenuTextures"]
+offset_left = -480.0
+offset_top = -272.0
+offset_right = 718.0
+offset_bottom = 240.0
+
+[node name="Label" type="Label" parent="MenuTextures/MarginContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_qwrbf")
+theme_override_font_sizes/font_size = 75
+text = "Bagel | Twitch.tv/Bagelosaurus
+Ben Jennings | @BenJenningsArt
+IBS$20 Tanner | @
+Mavelion Chris | @Mavelion1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_top = 832.0
+offset_right = 440.0
+offset_bottom = 912.0
+theme_override_fonts/font = ExtResource("3_5te7f")
+theme_override_font_sizes/font_size = 25
+text = "Back to Title
+"
