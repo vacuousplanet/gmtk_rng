@@ -17,36 +17,36 @@ texture = ExtResource("2_58w8q")
 [node name="Profile" type="Sprite2D" parent="."]
 
 [node name="ATK_slider" parent="." instance=ExtResource("3_5tr2j")]
-offset_left = 187.0
+offset_left = 193.0
 offset_top = 284.0
-offset_right = 315.0
-offset_bottom = 300.0
+offset_right = 321.0
+offset_bottom = 305.0
 
 [node name="DEF_slider" parent="." instance=ExtResource("3_5tr2j")]
-offset_left = 186.0
+offset_left = 193.0
 offset_top = 317.0
-offset_right = 318.0
-offset_bottom = 333.0
+offset_right = 321.0
+offset_bottom = 346.0
 
 [node name="ATK_label" parent="." instance=ExtResource("4_p6q52")]
-offset_left = 142.0
-offset_top = 271.0
-offset_right = 182.0
-offset_bottom = 309.0
+offset_left = 136.0
+offset_top = 276.0
+offset_right = 190.0
+offset_bottom = 316.0
 text = "100"
 text_direction = 2
 
 [node name="DEF_label" parent="." instance=ExtResource("4_p6q52")]
-offset_left = 141.0
-offset_top = 309.0
-offset_right = 182.0
-offset_bottom = 347.0
+offset_left = 139.0
+offset_top = 312.0
+offset_right = 191.0
+offset_bottom = 349.0
 text = "0"
 text_direction = 2
 
 [node name="EnemyName_label" parent="." instance=ExtResource("4_p6q52")]
-offset_left = 90.0
-offset_top = 55.0
+offset_left = 97.0
+offset_top = 49.0
 offset_right = 265.0
 offset_bottom = 114.0
 theme_override_colors/default_color = Color(0.0666667, 0.0666667, 0.0666667, 1)

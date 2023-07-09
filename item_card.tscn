@@ -26,10 +26,10 @@ offset_bottom = 76.0
 value = 100.0
 
 [node name="DEF_slider" parent="." instance=ExtResource("3_axeqi")]
-offset_left = -15.0
-offset_top = 98.0
+offset_left = -16.0
+offset_top = 99.0
 offset_right = 107.0
-offset_bottom = 114.0
+offset_bottom = 129.0
 
 [node name="ATK_label" parent="." instance=ExtResource("4_gkw1d")]
 offset_left = -60.0
@@ -40,10 +40,10 @@ text = "100"
 text_direction = 2
 
 [node name="DEF_label" parent="." instance=ExtResource("4_gkw1d")]
-offset_left = -61.0
-offset_top = 85.0
+offset_left = -67.0
+offset_top = 95.0
 offset_right = -20.0
-offset_bottom = 123.0
+offset_bottom = 142.0
 text = "0"
 text_direction = 2
 
