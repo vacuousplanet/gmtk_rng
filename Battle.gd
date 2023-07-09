@@ -65,6 +65,7 @@ func do_animation():
 	
 	
 func on_animation_complete():
+	current_fighter = other_fighter()
 	turn_in_process = false
 
 
