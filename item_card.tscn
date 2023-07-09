@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bhp7o5grxmv36"]
+
+[node name="ItemCard" type="Node2D"]
+
+[node name="Container" type="Container" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
