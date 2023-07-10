@@ -1,41 +1,110 @@
-[gd_scene load_steps=2 format=3 uid="uid://cm3rge50sca8a"]
+[gd_scene load_steps=9 format=3 uid="uid://cm3rge50sca8a"]
 
+[ext_resource type="FontFile" uid="uid://bsk456nxqpdq0" path="res://Kanit/Kanit-Black.ttf" id="1_6hjh3"]
 [ext_resource type="Script" path="res://Main_Menu.gd" id="1_36fuk"]
+[ext_resource type="Texture2D" uid="uid://u478d40ty5hx" path="res://sprites/MenuTextures.png" id="3_0lf1v"]
+[ext_resource type="FontFile" uid="uid://bq1f5h6yol3td" path="res://fonts/Kanit/Kanit-Black.ttf" id="3_myvjx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vikqu"]
+bg_color = Color(0.350316, 0.452114, 0.289082, 1)
+corner_radius_bottom_right = 10
+expand_margin_right = 20.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3p7q5"]
+content_margin_right = 15.0
+bg_color = Color(0.517647, 0.647059, 0.443137, 1)
+border_width_right = 6
+border_width_bottom = 8
+border_color = Color(0.152941, 0.137255, 0.0666667, 1)
+corner_radius_bottom_right = 20
+expand_margin_right = 20.0
+shadow_color = Color(0.160784, 0.160784, 0.160784, 0.6)
+shadow_size = 4
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xdfdr"]
+content_margin_right = 20.0
+bg_color = Color(0.207843, 0.27451, 0.164706, 1)
+corner_radius_bottom_right = 10
+expand_margin_right = 20.0
+
+[sub_resource type="Theme" id="Theme_q6ovl"]
+default_font = ExtResource("1_6hjh3")
+Button/styles/hover = SubResource("StyleBoxFlat_vikqu")
+Button/styles/normal = SubResource("StyleBoxFlat_3p7q5")
+Button/styles/pressed = SubResource("StyleBoxFlat_xdfdr")
 
 [node name="Main_Menu" type="Control"]
+texture_filter = 1
+
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+theme = SubResource("Theme_q6ovl")
 script = ExtResource("1_36fuk")
+
+[node name="MenuTextures" type="Sprite2D" parent="."]
+position = Vector2(960, 536)
+texture = ExtResource("3_0lf1v")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 392.0
+offset_top = 144.0
+offset_right = 1526.0
+offset_bottom = 596.0
+theme_override_fonts/font = ExtResource("3_myvjx")
+theme_override_font_sizes/font_size = 300
+text = "U R RNG"
+horizontal_alignment = 1
+
+[node name="PLAY" type="Button" parent="."]
+layout_mode = 2
+offset_top = 576.0
+offset_right = 600.0
+offset_bottom = 640.0
+theme_override_font_sizes/font_size = 25
+text = "START"
+
+[node name="OPTIONS" type="Button" parent="."]
+layout_mode = 2
+offset_top = 704.0
+offset_right = 600.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 25
+text = "OPTIONS"
+
+[node name="CREDITS" type="Button" parent="."]
+layout_mode = 2
+offset_top = 832.0
+offset_right = 600.0
+offset_bottom = 896.0
+theme_override_font_sizes/font_size = 25
+text = "CREDITS"
+
+[node name="QUIT" type="Button" parent="."]
+layout_mode = 2
+offset_top = 960.0
+offset_right = 600.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 25
+text = "EXIT GAME"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 144.0
+offset_top = 416.0
+offset_right = 320.0
+offset_bottom = 488.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 
-[node name="PLAY" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "START"
-
-[node name="OPTIONS" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "OPTIONS"
-
-[node name="CREDITS" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "CREDITS"
-
-[node name="QUIT" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "EXIT GAME"
-
-[connection signal="pressed" from="MarginContainer/VBoxContainer/PLAY" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/OPTIONS" to="." method="_on_options_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/CREDITS" to="." method="_on_credits_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/QUIT" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="PLAY" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="OPTIONS" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="CREDITS" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="QUIT" to="." method="_on_quit_pressed"]

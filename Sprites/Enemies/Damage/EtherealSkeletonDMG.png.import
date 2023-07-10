@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://u58ul8pr3qik"
+path="res://.godot/imported/EtherealSkeletonDMG.png-55acfd0c93ed4c6dd8ef15f01e5cea23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Damage/EtherealSkeletonDMG.png"
+dest_files=["res://.godot/imported/EtherealSkeletonDMG.png-55acfd0c93ed4c6dd8ef15f01e5cea23.ctex"]
 
 [params]
 

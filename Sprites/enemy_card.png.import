@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://bpyocd8x1ahq2"
+path="res://.godot/imported/enemy_card.png-d0aa3cc38e44baf8ee1e9b488f32f86c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/enemy_card.png"
+dest_files=["res://.godot/imported/enemy_card.png-d0aa3cc38e44baf8ee1e9b488f32f86c.ctex"]
 
 [params]
 

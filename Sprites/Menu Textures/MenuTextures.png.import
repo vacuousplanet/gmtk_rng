@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://c6062rc1g5j6o"
+path="res://.godot/imported/MenuTextures.png-43d6463e22c833cd43de41bd36f8e969.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Menu Textures/MenuTextures.png"
+dest_files=["res://.godot/imported/MenuTextures.png-43d6463e22c833cd43de41bd36f8e969.ctex"]
 
 [params]
 

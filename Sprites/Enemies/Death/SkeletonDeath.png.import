@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://brdcyodad66gb"
+path="res://.godot/imported/SkeletonDeath.png-7c7ef8d9580407832c894f3ae763b942.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Death/SkeletonDeath.png"
+dest_files=["res://.godot/imported/SkeletonDeath.png-7c7ef8d9580407832c894f3ae763b942.ctex"]
 
 [params]
 

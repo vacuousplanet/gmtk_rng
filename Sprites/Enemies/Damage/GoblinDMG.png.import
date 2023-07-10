@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://cy5tfu24foy5w"
+path="res://.godot/imported/GoblinDMG.png-1cad1115a72fdd95ccaefc59eef75cc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Damage/GoblinDMG.png"
+dest_files=["res://.godot/imported/GoblinDMG.png-1cad1115a72fdd95ccaefc59eef75cc7.ctex"]
 
 [params]
 

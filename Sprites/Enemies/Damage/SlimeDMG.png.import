@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://c0f6m2lfpqdes"
+path="res://.godot/imported/SlimeDMG.png-fa6911931b125a1f19077cb81bc47500.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Damage/SlimeDMG.png"
+dest_files=["res://.godot/imported/SlimeDMG.png-fa6911931b125a1f19077cb81bc47500.ctex"]
 
 [params]
 

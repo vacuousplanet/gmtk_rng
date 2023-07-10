@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://dpe4rvdgfn1xk"
+path="res://.godot/imported/Cobblestone_Background.png-cc8fbd2c680e981da84ee7dd5026632f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Background/Cobblestone_Background.png"
+dest_files=["res://.godot/imported/Cobblestone_Background.png-cc8fbd2c680e981da84ee7dd5026632f.ctex"]
 
 [params]
 

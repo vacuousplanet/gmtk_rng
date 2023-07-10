@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://qr8fdodp04cw"
+path="res://.godot/imported/SlimeDeath.png-6cf8cc40f76da9bab0dc742756a11648.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Death/SlimeDeath.png"
+dest_files=["res://.godot/imported/SlimeDeath.png-6cf8cc40f76da9bab0dc742756a11648.ctex"]
 
 [params]
 

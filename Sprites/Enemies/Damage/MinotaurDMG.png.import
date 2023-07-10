@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3s1slnvwxhw"
-path="res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"
+uid="uid://bcikh4v1xviyh"
+path="res://.godot/imported/MinotaurDMG.png-ecbe36ae108c43d3b9d8eaa33892f951.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/palatte.png"
-dest_files=["res://.godot/imported/palatte.png-5272c25a96f3b2c88dfbf3b5e3691e14.ctex"]
+source_file="res://Sprites/Enemies/Damage/MinotaurDMG.png"
+dest_files=["res://.godot/imported/MinotaurDMG.png-ecbe36ae108c43d3b9d8eaa33892f951.ctex"]
 
 [params]
 
